@@ -173,6 +173,21 @@ ctrl+/
 # 表のボディー
 - tbody
 
+<td colspan="2">でセルを2個結合する
+
+
+7-1 テキスト入力（HTMLのフォーム）
+# テキスト入力欄
+
+## テキスト入力のいろいろ
+- 一行タイプ
+	inputタグ / type="text"
+- パスワードタイプ
+	inputタグ / type~"password"
+- 複数行入力できるもの
+	textareaタグ
+
+
 
 
 
