@@ -5,12 +5,17 @@
 		<title>HTMLの練習</title>
 	</head>
 	<body>
-		<input type="text" name="name"><br>
-		<input type="password" name="pass"><br>
-		<textarea name="info" id="" cols="80" rows="4">test</textarea><br>
+		<fieldset>
+			<legend>IDとパスワード</legend>
+			<label for="name">ID</label><input type="text" name="name" id="name"><br>
+			<label for="pass">Password</label><input type="password" name="pass" id="pass"><br>
+		</fieldset>
 		<br>
-		<input type="radio" name="gender" value="male" id="">男性<br>
-		<input type="radio" name="gender" value="female" id="">女性<br>
+		<fieldset>
+			<legend>性別</legend>
+			<input type="radio" name="gender" value="male" id="male"><label for="male">男性</label><br>
+			<input type="radio" name="gender" value="female" id="female"><label for="female">女性</label><br>
+		</fieldset>
 		<br>
 		<input type="checkbox" name="music" id="jazz">Jazz<br>
 		<input type="checkbox" name="music" id="pops">Pops<br>
