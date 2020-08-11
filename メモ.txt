@@ -337,6 +337,18 @@ headの中に記述
 type="text/css"が必要
 
 
+1-5 外部ファイルによるスタイル適用（はじめてのCSS）
+# 外部ファイルからCSSを読み込む
+
+## linkダグ
+headの中に書く
+rel="stylesheet"
+type="text/css"
+href="(ファイル名)"
+
+
+
+
 
 
 
