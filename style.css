@@ -5,4 +5,13 @@ h1 {
 
 p {
 	font-size: 9px;
+	background-color: red;
+}
+
+div {
+	font-size: 9px;
+}
+
+span {
+	background-color: yellow;
 }
