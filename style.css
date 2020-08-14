@@ -9,9 +9,19 @@ body {
 	width: 760px;
 }
 
-/* 特殊なセレクタを使うと */
-p ~ h2 {
-	color: red;
+/* 属性セレクタを使うと */
+a:link {
+	color: crimson;
+}
+a:visited {
+	color: green;
+}
+a:hover {
+	text-decoration: none;
+	background-color: lightgray;
+}
+:focus {
+	background-color: yellow;
 }
 
 
