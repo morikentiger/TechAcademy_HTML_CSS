@@ -1,16 +1,17 @@
-.base {
-	font-size: 20px;
-	font-weight: bold;
+body {
+	font: 1.1em/1.5 sans-serif;
+	padding-top: 20px;
+}
+.main {
+	border: 1px solid;
+	margin: auto;
+	padding: 10px 20px 20px;
+	width: 760px;
 }
 
-.black {
-	color: black;
-}
-
-.red {
+/* 特殊なセレクタを使うと */
+p ~ h2 {
 	color: red;
 }
 
-.green {
-	color: green;
-}
+
