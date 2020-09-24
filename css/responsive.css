@@ -1,0 +1,18 @@
+body {
+	color :red;
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+}
+/* 
+.container{
+	display: flex;
+	justify-content: flex-end;
+} */
+
+.container{
+	display: flex;
+	align-items: center;
+}
